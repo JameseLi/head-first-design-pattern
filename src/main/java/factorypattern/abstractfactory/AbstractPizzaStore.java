@@ -1,25 +1,24 @@
 package factorypattern.abstractfactory;
 
-/**
- * @author lizhengjun
- */
 public abstract class AbstractPizzaStore {
 
-    public void orderPizza(String type) {
-        AbstractPizza pizza = createPizza(type);
+    public AbstractPizza orderPizza(String type) {
+        AbstractPizza pizza = null;
+        pizza = createPizza(type);
 
         pizza.prepare();
         pizza.bake();
         pizza.cut();
         pizza.box();
 
+        return pizza;
     }
 
     /**
-     * 生产披萨
+     * 制作披萨
      *
-     * @param type 披萨类型
+     * @param type 类型
      * @return AbstractPizza
      */
-    abstract AbstractPizza createPizza(String type);
+    protected abstract AbstractPizza createPizza(String type);
 }

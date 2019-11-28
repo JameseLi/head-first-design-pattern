@@ -1,40 +1,36 @@
 package factorypattern.abstractfactory;
 
-import java.util.ArrayList;
-
-/**
- * @author lizhengjun
- */
 public abstract class AbstractPizza {
-
     String name;
-    String dough;
-    String sauce;
-    ArrayList toppings = new ArrayList();
+    Dough  dough;
+    Sauce sauce;
+    Veggie[] veggies;
+    Cheese cheese;
+    Pepperoni pepperoni;
+    Clams clam;
 
-    void prepare() {
-        System.out.println("Prepare pizza " + name);
-        System.out.println("Tossing dough...");
-        System.out.println("Add sauce");
-        System.out.println("Add Toppings");
-        for (int i = 0; i < toppings.size(); i++) {
-            System.out.println("" + toppings.get(i));
-        }
-    }
+    /**
+     * 准备pizza
+     */
+    abstract void prepare();
 
     void bake() {
-        System.out.println("Bake for 25 min at 350");
+        System.out.println("bake for 25 min at 350");
     }
 
     void cut() {
-        System.out.println("Cutting the pizza into diagonal slices");
+        System.out.println("cutting the pizza into diagonal slices");
     }
 
     void box() {
-        System.out.println("Place pizza in official PizzaStore box ");
+        System.out.println("place pizza in official PizzaStore box");
     }
 
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

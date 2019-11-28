@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="226.0">factorypattern.abstractfactory.NewYorkPizzaIngredientFactory</node>
+    <node x="177.0" y="149.0">factorypattern.abstractfactory.PizzaIngredientFactory</node>
+    <node x="202.0" y="375.0">factorypattern.abstractfactory.NewYorkPizzaStore</node>
+    <node x="99.0" y="596.0">factorypattern.abstractfactory.Clams</node>
+    <node x="0.0" y="375.0">factorypattern.abstractfactory.ChicagoPizzaStore</node>
+    <node x="429.0" y="375.0">factorypattern.abstractfactory.MozzarellaCheese</node>
+    <node x="562.0" y="298.0">factorypattern.abstractfactory.Cheese</node>
+    <node x="0.0" y="673.0">factorypattern.abstractfactory.FrozenClams</node>
+    <node x="97.0" y="298.0">factorypattern.abstractfactory.AbstractPizzaStore</node>
+    <node x="516.0" y="587.0">factorypattern.abstractfactory.Sauce</node>
+    <node x="243.0" y="0.0">factorypattern.abstractfactory.AbstractPizza</node>
+    <node x="0.0" y="524.0">factorypattern.abstractfactory.ThickCrustDough</node>
+    <node x="178.0" y="77.0">factorypattern.abstractfactory.VeggiePizza</node>
+    <node x="623.0" y="375.0">factorypattern.abstractfactory.ReggianoCheese</node>
+    <node x="395.0" y="664.0">factorypattern.abstractfactory.MarinaraSauce</node>
+    <node x="332.0" y="77.0">factorypattern.abstractfactory.ClamPizza</node>
+    <node x="131.0" y="447.0">factorypattern.abstractfactory.Dough</node>
+    <node x="154.0" y="673.0">factorypattern.abstractfactory.FreshClams</node>
+    <node x="470.0" y="77.0">factorypattern.abstractfactory.CheesePizza</node>
+    <node x="565.0" y="664.0">factorypattern.abstractfactory.PlumTomatoSauce</node>
+    <node x="186.0" y="524.0">factorypattern.abstractfactory.ThinCrustDough</node>
+    <node x="298.0" y="226.0">factorypattern.abstractfactory.ChicagoPizzaIngredientFactory</node>
+    <node x="0.0" y="77.0">factorypattern.abstractfactory.PepperoniPizza</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="factorypattern.abstractfactory.PepperoniPizza" target="factorypattern.abstractfactory.AbstractPizza">
+      <point x="0.0" y="-13.5" />
+      <point x="79.0" y="47.0" />
+      <point x="261.75" y="47.0" />
+      <point x="-56.25" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.NewYorkPizzaStore" target="factorypattern.abstractfactory.AbstractPizzaStore">
+      <point x="0.0" y="-13.5" />
+      <point x="293.0" y="350.0" />
+      <point x="239.5" y="350.0" />
+      <point x="47.5" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.ThickCrustDough" target="factorypattern.abstractfactory.Dough">
+      <point x="0.0" y="-13.5" />
+      <point x="83.0" y="499.0" />
+      <point x="152.5" y="499.0" />
+      <point x="-21.5" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.ReggianoCheese" target="factorypattern.abstractfactory.Cheese">
+      <point x="0.0" y="-13.5" />
+      <point x="702.0" y="350.0" />
+      <point x="632.5" y="350.0" />
+      <point x="23.5" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.VeggiePizza" target="factorypattern.abstractfactory.AbstractPizza">
+      <point x="0.0" y="-13.5" />
+      <point x="245.0" y="57.0" />
+      <point x="299.25" y="57.0" />
+      <point x="-18.75" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.ChicagoPizzaIngredientFactory" target="factorypattern.abstractfactory.PizzaIngredientFactory">
+      <point x="0.0" y="-13.5" />
+      <point x="437.0" y="201.0" />
+      <point x="343.5" y="201.0" />
+      <point x="55.5" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.NewYorkPizzaIngredientFactory" target="factorypattern.abstractfactory.PizzaIngredientFactory">
+      <point x="0.0" y="-13.5" />
+      <point x="139.0" y="201.0" />
+      <point x="232.5" y="201.0" />
+      <point x="-55.5" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.MozzarellaCheese" target="factorypattern.abstractfactory.Cheese">
+      <point x="0.0" y="-13.5" />
+      <point x="516.0" y="350.0" />
+      <point x="585.5" y="350.0" />
+      <point x="-23.5" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.MarinaraSauce" target="factorypattern.abstractfactory.Sauce">
+      <point x="0.0" y="-13.5" />
+      <point x="470.0" y="639.0" />
+      <point x="537.5" y="639.0" />
+      <point x="-21.5" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.CheesePizza" target="factorypattern.abstractfactory.AbstractPizza">
+      <point x="0.0" y="-13.5" />
+      <point x="537.0" y="47.0" />
+      <point x="374.25" y="47.0" />
+      <point x="56.25" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.ClamPizza" target="factorypattern.abstractfactory.AbstractPizza">
+      <point x="0.0" y="-13.5" />
+      <point x="391.0" y="57.0" />
+      <point x="336.75" y="57.0" />
+      <point x="18.75" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.ChicagoPizzaStore" target="factorypattern.abstractfactory.AbstractPizzaStore">
+      <point x="0.0" y="-13.5" />
+      <point x="91.0" y="350.0" />
+      <point x="144.5" y="350.0" />
+      <point x="-47.5" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.FrozenClams" target="factorypattern.abstractfactory.Clams">
+      <point x="0.0" y="-13.5" />
+      <point x="67.0" y="648.0" />
+      <point x="120.5" y="648.0" />
+      <point x="-21.5" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.ThinCrustDough" target="factorypattern.abstractfactory.Dough">
+      <point x="0.0" y="-13.5" />
+      <point x="265.0" y="499.0" />
+      <point x="195.5" y="499.0" />
+      <point x="21.5" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.PlumTomatoSauce" target="factorypattern.abstractfactory.Sauce">
+      <point x="0.0" y="-13.5" />
+      <point x="648.0" y="639.0" />
+      <point x="580.5" y="639.0" />
+      <point x="21.5" y="13.5" />
+    </edge>
+    <edge source="factorypattern.abstractfactory.FreshClams" target="factorypattern.abstractfactory.Clams">
+      <point x="0.0" y="-13.5" />
+      <point x="217.0" y="648.0" />
+      <point x="163.5" y="648.0" />
+      <point x="21.5" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="276.0" y="437.5" />
+  <SelectedNodes>
+    <node>factorypattern.abstractfactory.MarinaraSauce</node>
+    <node>factorypattern.abstractfactory.Sauce</node>
+    <node>factorypattern.abstractfactory.PlumTomatoSauce</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,4 +1,4 @@
-package factorypattern.abstractfactory;
+package factorypattern.factorymethod;
 
 /**
  * @author lizhengjun
