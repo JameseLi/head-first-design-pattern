@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="80.0">strategypattern.characters.BowAndArrowBehavior</node>
+    <node x="116.0" y="235.0">strategypattern.characters.Queue</node>
+    <node x="548.0" y="80.0">strategypattern.characters.SwordBehavior</node>
+    <node x="224.0" y="235.0">strategypattern.characters.King</node>
+    <node x="220.0" y="80.0">strategypattern.characters.AxeBehavior</node>
+    <node x="0.0" y="235.0">strategypattern.characters.Knight</node>
+    <node x="152.0" y="155.0">strategypattern.characters.Character</node>
+    <node x="290.0" y="0.0">strategypattern.characters.WeaponBehavior</node>
+    <node x="376.0" y="80.0">strategypattern.characters.KnifeBehavior</node>
+    <node x="324.0" y="235.0">strategypattern.characters.Troll</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategypattern.characters.BowAndArrowBehavior" target="strategypattern.characters.WeaponBehavior">
+      <point x="0.0" y="-15.0" />
+      <point x="100.0" y="50.0" />
+      <point x="310.0" y="50.0" />
+      <point x="-60.0" y="15.0" />
+    </edge>
+    <edge source="strategypattern.characters.SwordBehavior" target="strategypattern.characters.WeaponBehavior">
+      <point x="0.0" y="-15.0" />
+      <point x="624.0" y="50.0" />
+      <point x="430.0" y="50.0" />
+      <point x="60.0" y="15.0" />
+    </edge>
+    <edge source="strategypattern.characters.Troll" target="strategypattern.characters.Character">
+      <point x="0.0" y="-15.0" />
+      <point x="368.0" y="205.0" />
+      <point x="257.0" y="205.0" />
+      <point x="45.0" y="15.0" />
+    </edge>
+    <edge source="strategypattern.characters.KnifeBehavior" target="strategypattern.characters.WeaponBehavior">
+      <point x="0.0" y="-15.0" />
+      <point x="452.0" y="60.0" />
+      <point x="390.0" y="60.0" />
+      <point x="20.0" y="15.0" />
+    </edge>
+    <edge source="strategypattern.characters.Queue" target="strategypattern.characters.Character">
+      <point x="0.0" y="-15.0" />
+      <point x="160.0" y="215.0" />
+      <point x="197.0" y="215.0" />
+      <point x="-15.0" y="15.0" />
+    </edge>
+    <edge source="strategypattern.characters.King" target="strategypattern.characters.Character">
+      <point x="0.0" y="-15.0" />
+      <point x="264.0" y="215.0" />
+      <point x="227.0" y="215.0" />
+      <point x="15.0" y="15.0" />
+    </edge>
+    <edge source="strategypattern.characters.AxeBehavior" target="strategypattern.characters.WeaponBehavior">
+      <point x="0.0" y="-15.0" />
+      <point x="288.0" y="60.0" />
+      <point x="350.0" y="60.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="strategypattern.characters.Knight" target="strategypattern.characters.Character">
+      <point x="0.0" y="-15.0" />
+      <point x="48.0" y="205.0" />
+      <point x="167.0" y="205.0" />
+      <point x="-45.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="377.0" y="183.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
