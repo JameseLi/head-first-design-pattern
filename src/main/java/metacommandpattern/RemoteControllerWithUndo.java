@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 撤销控制器
- * 
+ *
  * @author lizhengjun
  */
 public class RemoteControllerWithUndo {
